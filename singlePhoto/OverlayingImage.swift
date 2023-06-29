@@ -10,11 +10,27 @@
 import SwiftUI
 
 struct OverlayingImage: View {
+    @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
+    @State private var selectedImage: UIImage?
+    @State private var isImagePickerDisplay = false
+    
     var body: some View {
-        Image("IMG_7878")
-            .resizable()
-            .scaledToFit()
-            .opacity(0.5)
+        VStack{
+            if selectedImage != nil {
+                Image(uiImage: selectedImage!)
+                    .resizable()
+                    .scaledToFit()
+                    .opacity(0.5)
+            }
+            Button("select reference photo") {
+                self.sourceType = .photoLibrary
+                self.isImagePickerDisplay.toggle()
+            }.padding()
+        }
+        .navigationBarTitle("PhotoGhost")
+        .sheet(isPresented: self.$isImagePickerDisplay) {
+            ImagePickerGalleryView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
+        }
     }
 }
 

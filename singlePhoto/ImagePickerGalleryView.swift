@@ -2,7 +2,7 @@
 import UIKit
 import SwiftUI
 
-struct ImagePickerView: UIViewControllerRepresentable {
+struct ImagePickerGalleryView: UIViewControllerRepresentable {
     
     @Binding var selectedImage: UIImage?
     @Environment(\.presentationMode) var isPresented
@@ -20,15 +20,15 @@ struct ImagePickerView: UIViewControllerRepresentable {
     }
 
     // Connecting the Coordinator class with this struct
-    func makeCoordinator() -> Coordinator {
-        return Coordinator(picker: self)
+    func makeCoordinator() -> GalleryCoordinator {
+        return GalleryCoordinator(picker: self)
     }
 }
 
-class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-    var picker: ImagePickerView
+class GalleryCoordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    var picker: ImagePickerGalleryView
     
-    init(picker: ImagePickerView) {
+    init(picker: ImagePickerGalleryView) {
         self.picker = picker
     }
     

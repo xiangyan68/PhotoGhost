@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		F91A47562A4D37880019F72B /* OverlayingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47552A4D37880019F72B /* OverlayingImage.swift */; };
 		F91A47582A4D37AA0019F72B /* Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47572A4D37AA0019F72B /* Stacking.swift */; };
-		F91A475A2A4D4FE80019F72B /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47592A4D4FE80019F72B /* ImagePickerView.swift */; };
+		F91A475A2A4D4FE80019F72B /* ImagePickerGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47592A4D4FE80019F72B /* ImagePickerGalleryView.swift */; };
 		F91A475C2A4D52220019F72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A475B2A4D52220019F72B /* ContentView.swift */; };
 		F91A475E2A4D593C0019F72B /* ImagePickerCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A475D2A4D593C0019F72B /* ImagePickerCameraView.swift */; };
-		F91A47602A4D595A0019F72B /* ImagePickerGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A475F2A4D595A0019F72B /* ImagePickerGalleryView.swift */; };
 		F9C3C5B22599B2D7008A97C4 /* singlePhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3C5B12599B2D7008A97C4 /* singlePhotoApp.swift */; };
 		F9C3C5B62599B2D9008A97C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C3C5B52599B2D9008A97C4 /* Assets.xcassets */; };
 		F9C3C5B92599B2D9008A97C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C3C5B82599B2D9008A97C4 /* Preview Assets.xcassets */; };
@@ -41,10 +40,9 @@
 /* Begin PBXFileReference section */
 		F91A47552A4D37880019F72B /* OverlayingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayingImage.swift; sourceTree = "<group>"; };
 		F91A47572A4D37AA0019F72B /* Stacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacking.swift; sourceTree = "<group>"; };
-		F91A47592A4D4FE80019F72B /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		F91A47592A4D4FE80019F72B /* ImagePickerGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGalleryView.swift; sourceTree = "<group>"; };
 		F91A475B2A4D52220019F72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F91A475D2A4D593C0019F72B /* ImagePickerCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCameraView.swift; sourceTree = "<group>"; };
-		F91A475F2A4D595A0019F72B /* ImagePickerGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGalleryView.swift; sourceTree = "<group>"; };
 		F9C3C5AE2599B2D7008A97C4 /* singlePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singlePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C3C5B12599B2D7008A97C4 /* singlePhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singlePhotoApp.swift; sourceTree = "<group>"; };
 		F9C3C5B52599B2D9008A97C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,9 +107,8 @@
 			children = (
 				F9C3C5B12599B2D7008A97C4 /* singlePhotoApp.swift */,
 				F9DFDC3C2A21D2C1006BE55B /* CameraView.swift */,
-				F91A47592A4D4FE80019F72B /* ImagePickerView.swift */,
+				F91A47592A4D4FE80019F72B /* ImagePickerGalleryView.swift */,
 				F91A475D2A4D593C0019F72B /* ImagePickerCameraView.swift */,
-				F91A475F2A4D595A0019F72B /* ImagePickerGalleryView.swift */,
 				F91A475B2A4D52220019F72B /* ContentView.swift */,
 				F91A47552A4D37880019F72B /* OverlayingImage.swift */,
 				F91A47572A4D37AA0019F72B /* Stacking.swift */,
@@ -278,9 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F91A47582A4D37AA0019F72B /* Stacking.swift in Sources */,
-				F91A475A2A4D4FE80019F72B /* ImagePickerView.swift in Sources */,
+				F91A475A2A4D4FE80019F72B /* ImagePickerGalleryView.swift in Sources */,
 				F91A475C2A4D52220019F72B /* ContentView.swift in Sources */,
-				F91A47602A4D595A0019F72B /* ImagePickerGalleryView.swift in Sources */,
 				F9DFDC3D2A21D2C1006BE55B /* CameraView.swift in Sources */,
 				F9C3C5B22599B2D7008A97C4 /* singlePhotoApp.swift in Sources */,
 				F91A475E2A4D593C0019F72B /* ImagePickerCameraView.swift in Sources */,

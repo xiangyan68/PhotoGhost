@@ -11,10 +11,7 @@ struct Stacking: View {
     @State private var selectedImage: UIImage?
     var body: some View {
         ZStack{
-//            CameraView()
             ContentView()
-            OverlayingImage()
-            
         }
     }
 }

@@ -11,7 +11,6 @@ import SwiftUI
 struct singlePhotoApp: App {
     var body: some Scene {
         WindowGroup {
-//          
             Stacking()
         }
     }
