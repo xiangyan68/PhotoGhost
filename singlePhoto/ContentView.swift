@@ -1,20 +1,40 @@
+////
+////  ContentView.swift
+////  singlePhoto
+////
+////  Created by Xiang Yan on 2020-12-27.
+////
 //
-//  ContentView.swift
-//  singlePhoto
+//import SwiftUI
 //
-//  Created by Xiang Yan on 2020-12-27.
+//struct ContentView: View {
+//    var body: some View {
+//        VStack(alignment: .leading) {
 //
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!").padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//            Text("Hello, world!")
+////                .padding()
+//                .font(.title)
+//                .foregroundColor(.pink)
+//            HStack{
+//                Text("Cali")
+//                Spacer()
+//                
+//                Text("Park")
+//                    .font(.subheadline)
+////                Spacer()
+////
+////                Text("ark")
+////                    .font(.subheadline)
+//            }
+//            
+//                
+//        }
+//        .padding()
+//    }
+//}
+//
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
