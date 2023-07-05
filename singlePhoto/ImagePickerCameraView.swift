@@ -3,7 +3,7 @@ import UIKit
 import SwiftUI
 
 struct ImagePickerCameraView: UIViewControllerRepresentable {
-    
+    @Binding var capturedImage: UIImage?
     @Environment(\.presentationMode) var isPresented
         
     func makeUIViewController(context: Context) -> UIImagePickerController {
@@ -31,6 +31,8 @@ class CameraCoordinator: NSObject, UINavigationControllerDelegate, UIImagePicker
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        guard let capturedImage = info[.originalImage] as? UIImage else { return }
+        self.picker.capturedImage = capturedImage
         self.picker.isPresented.wrappedValue.dismiss()
     }
     
