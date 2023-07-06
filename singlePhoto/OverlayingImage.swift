@@ -29,7 +29,7 @@ struct OverlayingImage: View {
         }
         .navigationBarTitle("PhotoGhost")
         .sheet(isPresented: self.$isImagePickerDisplay) {
-            ImagePickerGalleryView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
+            ImagePickerGalleryView(selectedImage: self.$selectedImage)
         }
     }
 }

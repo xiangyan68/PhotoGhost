@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C78CEAB52A567EB4002DD5DB /* ReferenceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CEAB42A567EB4002DD5DB /* ReferenceSelector.swift */; };
 		F91A47562A4D37880019F72B /* OverlayingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47552A4D37880019F72B /* OverlayingImage.swift */; };
 		F91A47582A4D37AA0019F72B /* Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47572A4D37AA0019F72B /* Stacking.swift */; };
 		F91A475A2A4D4FE80019F72B /* ImagePickerGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A47592A4D4FE80019F72B /* ImagePickerGalleryView.swift */; };
-		F91A475C2A4D52220019F72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A475B2A4D52220019F72B /* ContentView.swift */; };
 		F91A475E2A4D593C0019F72B /* ImagePickerCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A475D2A4D593C0019F72B /* ImagePickerCameraView.swift */; };
 		F9C3C5B22599B2D7008A97C4 /* singlePhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3C5B12599B2D7008A97C4 /* singlePhotoApp.swift */; };
 		F9C3C5B62599B2D9008A97C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C3C5B52599B2D9008A97C4 /* Assets.xcassets */; };
 		F9C3C5B92599B2D9008A97C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C3C5B82599B2D9008A97C4 /* Preview Assets.xcassets */; };
 		F9C3C5C42599B2D9008A97C4 /* singlePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3C5C32599B2D9008A97C4 /* singlePhotoTests.swift */; };
 		F9C3C5CF2599B2D9008A97C4 /* singlePhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3C5CE2599B2D9008A97C4 /* singlePhotoUITests.swift */; };
-		F9DFDC3D2A21D2C1006BE55B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DFDC3C2A21D2C1006BE55B /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C78CEAB42A567EB4002DD5DB /* ReferenceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceSelector.swift; sourceTree = "<group>"; };
 		F91A47552A4D37880019F72B /* OverlayingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayingImage.swift; sourceTree = "<group>"; };
 		F91A47572A4D37AA0019F72B /* Stacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacking.swift; sourceTree = "<group>"; };
 		F91A47592A4D4FE80019F72B /* ImagePickerGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGalleryView.swift; sourceTree = "<group>"; };
-		F91A475B2A4D52220019F72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F91A475D2A4D593C0019F72B /* ImagePickerCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCameraView.swift; sourceTree = "<group>"; };
 		F9C3C5AE2599B2D7008A97C4 /* singlePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singlePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C3C5B12599B2D7008A97C4 /* singlePhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singlePhotoApp.swift; sourceTree = "<group>"; };
@@ -54,7 +53,6 @@
 		F9C3C5CA2599B2D9008A97C4 /* singlePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singlePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C3C5CE2599B2D9008A97C4 /* singlePhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singlePhotoUITests.swift; sourceTree = "<group>"; };
 		F9C3C5D02599B2D9008A97C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9DFDC3C2A21D2C1006BE55B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				F9C3C5B12599B2D7008A97C4 /* singlePhotoApp.swift */,
-				F9DFDC3C2A21D2C1006BE55B /* CameraView.swift */,
 				F91A47592A4D4FE80019F72B /* ImagePickerGalleryView.swift */,
 				F91A475D2A4D593C0019F72B /* ImagePickerCameraView.swift */,
-				F91A475B2A4D52220019F72B /* ContentView.swift */,
 				F91A47552A4D37880019F72B /* OverlayingImage.swift */,
 				F91A47572A4D37AA0019F72B /* Stacking.swift */,
+				C78CEAB42A567EB4002DD5DB /* ReferenceSelector.swift */,
 				F9C3C5B52599B2D9008A97C4 /* Assets.xcassets */,
 				F9C3C5BA2599B2D9008A97C4 /* Info.plist */,
 				F9C3C5B72599B2D9008A97C4 /* Preview Content */,
@@ -276,8 +273,7 @@
 			files = (
 				F91A47582A4D37AA0019F72B /* Stacking.swift in Sources */,
 				F91A475A2A4D4FE80019F72B /* ImagePickerGalleryView.swift in Sources */,
-				F91A475C2A4D52220019F72B /* ContentView.swift in Sources */,
-				F9DFDC3D2A21D2C1006BE55B /* CameraView.swift in Sources */,
+				C78CEAB52A567EB4002DD5DB /* ReferenceSelector.swift in Sources */,
 				F9C3C5B22599B2D7008A97C4 /* singlePhotoApp.swift in Sources */,
 				F91A475E2A4D593C0019F72B /* ImagePickerCameraView.swift in Sources */,
 				F91A47562A4D37880019F72B /* OverlayingImage.swift in Sources */,
@@ -439,10 +435,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"singlePhoto/Preview Content\"";
-				DEVELOPMENT_TEAM = HW63C728X5;
+				DEVELOPMENT_TEAM = 2WU6GE7KWU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = singlePhoto/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,10 +457,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"singlePhoto/Preview Content\"";
-				DEVELOPMENT_TEAM = HW63C728X5;
+				DEVELOPMENT_TEAM = 2WU6GE7KWU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = singlePhoto/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
